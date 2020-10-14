@@ -144,3 +144,11 @@ h3 {
     height: 300px;
     margin-top: 20px;
 }
+
+.rift_pics {
+    width:100%;
+    display: block;
+    margin-right: auto;
+    padding-bottom: 10 px;
+    padding-top: 10 px;
+}

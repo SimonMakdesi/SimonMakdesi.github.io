@@ -7,7 +7,7 @@
 body {
     font-family:'Chilanka', cursive;
     font-size: 1.3rem;
-    background: #f9f9f9;
+    background-color: white;
 }
 
 a{
@@ -39,7 +39,7 @@ a{
 }
 
 .main-header p1 {
-    margin-top: 250px;
+    margin-top: 200px;
     font-size: 4rem;
     margin-bottom: 2rem;
     line-height: 1.2;   
@@ -133,4 +133,26 @@ img {
 
 p1{
     text-decoration: underline;
+}
+
+#bottom-contact{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.parallax-bottom {
+        /* The image used */
+        background-image: url(./Bottom-contact-pic.jpg);
+        
+        border-style: solid;
+        border-color: black;
+        /* Set a specific height */
+        height: 300px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
