@@ -120,7 +120,7 @@ img {
 
 .parallax {
     /* The image used */
-    background-image: url("Level_Design_pic.png");
+    background-image: url(Level_Design_pic.png);
   
     /* Set a specific height */
     height: 700px;
