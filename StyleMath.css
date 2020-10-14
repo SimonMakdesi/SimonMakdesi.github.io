@@ -40,4 +40,46 @@ input{
 #ResetQ {
     position: absolute;
     margin-top: -70px;
+/* Oskar Johansson Osjo8879
+Simon Makdesi Sima5063 */
+
+
+body {
+    background-image:url('Background.png')
+}
+
+#ccontainer{
+width:500px;
+
+margin: 0 auto;
+margin-top:100px;  
+}
+#MyCanvas{
+    width: "500";
+    height: "500";
+}
+input{
+    margin: 5px;
+    height: 70px;
+    width: 65px;
+}
+
+#numberToGet{
+    color: blueviolet;
+    text-decoration:underline;
+}
+#Help{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#AttemptsRemaining {
+    color: red;
+    margin-left: 680px;
+}
+
+#ResetQ {
+    position: absolute;
+    margin-top: -70px;
 }
