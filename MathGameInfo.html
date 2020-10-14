@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta http-equiv="U-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+    <link rel="stylesheet" href ="Work-style.css">
+    
+    <title> Simons E-portfolio</title>
+</head>
+<body>
+    <header class = top-navigation>
+        <div>
+            <a id = "Home" href = "./index.html" class="btn">Home</a>
+            <a id = "about-me" href = "./About-me.html" class="btn">About me</a>
+            <a id = "CV" href = "https://www.youtube.com/watch?v=ptfUwPJbGlQ&feature=emb_logo " class="btn">CV</a>
+        </div>
+    </header>
+
+    <header class = "main-header">
+
+        <h1><span>Project</span></h1>
+        <h1><span></span>Math game</h1>
+        <p>Designer</p>
+        <p1 id = "Head-details">This game was a school Project in which we learned HTML, CSS and Javascript. My colleague and I wanted to make a math game. I was the Designer and he was the programmer.</p1>
+    </header>
+
+    <main class= "container">
+        <section id = "first-card" class = "card">   
+            <div>
+                <h3>Project Summary</h3>
+                <p>This is a mind boggling math game. It consists of several challenges, increasing in difficulty level. The player has to reach the goal number with the use of a fixed set of numbers and operators. This has to be done within the amount of "operations remaning".</p>
+                <ul class = "List">
+                    <li>Development Time: 1 week.</li>
+                    <li>Team: 2 people.</li>
+                    <li>Language: HTML, CSS and Javascript.</li>
+                    <li>Genre: Learning game.</li>
+                </ul>
+
+                <a id = "Home" href = "./Math-game.html" class="btn">Play the game</a>
+            </div>
+        </section>
+
+        <section class = "card" data-aos="fade-left">
+
+            <div>
+                <h3>Design of the math game</h3>
+                <img id = "Pirate_Ref" src = "MathExample pic.PNG" alt = "">
+
+                <h3>The idea</h3>
+                <p>My original idea for my night scene was a generic cabin in the woods with a small lake in front of it. After working on the scene for 2 weeks and completing it i realized i was not happy at all with how it turned out. It looked pretty dull and uninspired. I had only 3 days until the deadline at that point and decided to redo the whole scene. I created this "pirate haven" scene on the get go using only the following image as an inspiration.</p>
+                <img id = "Pirate_Ref" src = "PirateHaven_ref.jpg" alt = "">
+                <h3>Challenges</h3>
+                <p>One of the most challenging part of this night time scene was to make lighting perfect. I wanted it to look like it was night time without being pitch black. Even though the tourches helped to illuminate the scene, they were not the most vital part. By working with the athmosphere settings, I wanted to simulate a moon light like vibe to the whole atmosphere, which helped me create an enlightened scene during the night. </p>
+                <h3>Issues and possible improvements</h3>
+                <p>Problem with dynimic lighing during rendering. Not so happy with the horizon. It is rendered in a one shot. Should be multiple angles and shots.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src = "https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+
+</html>

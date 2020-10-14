@@ -67,7 +67,7 @@ img {
 
 #first-card {
     grid-template-rows: repeat(2, 1fr);
-    height: 400px;
+    height: 500px;
 }
 
 .card h3 {
