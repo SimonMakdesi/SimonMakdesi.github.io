@@ -1,0 +1,45 @@
+<!-- Oskar Johansson Osjo8879
+Simon Makdesi Sima5063 -->
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+      <!-- Länk till Stylesheet och JavaScript-->
+		  <link rel="stylesheet" href="Style.css">
+      <script type="text/javascript" src="quiz.js"></script>
+    
+      <title>MathGame</title>
+  </head>
+  <body>
+    <!-- Two Headers and a help and a reset button and their ID's-->
+      <h1 id ="Header">Solve this problem</h1>
+      <h1 id= AttemptsRemaining> Operations:</h1>
+      
+      <input type="button" id= "Help" value="Help?">
+      <input type="button" id="ResetQ" value="Reset">
+    <div id="ccontainer">
+      <h1 id= numberToGet></h1>
+      <h1 id= "CurrentNumber"></h1>
+      <h1 id = "NumberToUse"></h1>    
+     
+      <!-- Buttons for chosing a number to use and their ID's -->
+      <input type="button" id="Valuebutton1" value="1">
+      <input type="button" id="Valuebutton2" value="2">
+      <input type="button" id="Valuebutton3" value="3">
+      <input type="button" id="Valuebutton4" value="4">
+
+   <div>
+
+    <!-- Buttons for choosing which operations the player wants to use and their ID's-->
+      <input type="button" id="addButton" value="+">
+      <input type="button" id="subtractButton" value="-">
+      <input type="button" id="divideButton" value="/">
+      <input type="button" id="multiplyButton" value="*">
+   </div>
+    <!-- Canvas ID and properties-->
+      <canvas id="myCanvas" width="500" height="500"></canvas>
+
+    </div>
+    
+  </body>
+</html>
