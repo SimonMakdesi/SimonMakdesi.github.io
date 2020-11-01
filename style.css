@@ -156,3 +156,9 @@ p1{
         background-repeat: no-repeat;
         background-size: cover;
 }
+
+#contact-email {
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+}

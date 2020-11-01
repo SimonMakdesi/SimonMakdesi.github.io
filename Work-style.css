@@ -58,7 +58,6 @@ img {
 }
 
 .card {
-    display: grid;
     grid-template-rows: repeat(2, 1fr);
     background: #d4d4d4;
     margin-bottom: 2rem;
